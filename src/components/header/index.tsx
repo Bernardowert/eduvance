@@ -22,7 +22,7 @@ export function Header(){
                  
                  </Link>
                  <NavListing/>
-                 <Button className="hidden desktop:inline-block">
+                 <Button  className="hidden desktop:inline-block">
                     Get In Touch
                  </Button>
                  <button className="desktop:hidden">
