@@ -9,6 +9,7 @@
 
 
 @theme static{
+  --color-primary-20:#F3EFFE;
   --color-primary-50:#F5F3FF;
   --color-primary-100:#ECE9FE;
   --color-primary-200:#DCD6FE;
@@ -74,14 +75,23 @@
   --color-white-01:#f3f6fc;
 
 
+  --text-size-90: 5.625rem;
 
 
+
+   
 
    --max-width-containerGRID:83.875rem;
+   --max-width-hero-areaText:39.875rem;
+
+   --height-hero-areaImage:45rem;
    
    --breakpoint-desktop:80rem;
    --breakpoint-laptop: 64rem;
    --breakpoint-tablet:48rem;
+
+
+   --background-image-elevate: url("../assets/bg-elevate.svg");
   
 }
 

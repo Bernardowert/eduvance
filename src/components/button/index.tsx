@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 
 
 const styles = {
-    btnPrimary:"bg-secondary-300 [&:hover,&:focus]:bg-secondary-400",
+    btnPrimary:"bg-secondary-300 text-gray-900 [&:hover,&:focus]:bg-secondary-400",
     btnSecondary:"bg-white [&:hover,&:focus]:bg-secondary-100",
 }
 
