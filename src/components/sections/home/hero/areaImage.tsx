@@ -30,7 +30,7 @@ const images = [
 ]
 export function AreaImage(){
     return(
-        <div className="w-full laptop:max-w-hero-areaText max-w-full desktop:h-hero-areaImage h-72 relative bg-primary-20 rounded-4xl flex items-center justify-center">
+        <div className="w-full laptop:max-w-hero-areaText max-w-full laptop:h-hero-areaImage h-72 relative bg-primary-20 rounded-4xl flex items-center justify-center">
               {
                 images.map(({src,alt,title,className}) => (
                     <Image

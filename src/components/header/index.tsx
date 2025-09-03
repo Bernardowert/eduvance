@@ -9,7 +9,7 @@ import iconHamburguer from "@/assets/icons/iconHamburguer.svg";
 
 export function Header(){
     return(
-        <header className="w-full fixed z-50 top-0 left-0 h-20 flex items-center bg-white border-b border-gray-100 desktop:border-b-0 desktop:h-28" >
+        <header className="w-full fixed z-50 top-0 left-0 h-20 flex items-center bg-white border-b border-gray-100 laptop:border-b-0 laptop:h-28" >
              <ContainerGRID className="flex items-center justify-between">
                  <Link href="/" className="flex items-center gap-3">            
                    <Image
@@ -22,10 +22,10 @@ export function Header(){
                  
                  </Link>
                  <NavListing/>
-                 <Button  className="hidden desktop:inline-block">
+                 <Button  className="hidden laptop:inline-block">
                     Get In Touch
                  </Button>
-                 <button className="desktop:hidden">
+                 <button className="laptop:hidden">
                     <Image
                      src={iconHamburguer}
                      alt="Icone menu mobile"

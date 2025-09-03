@@ -10,7 +10,7 @@ import { AreaImage } from "./areaImage";
 
 export function SectionHero(){
     return(
-        <section className="laptop:pt-48 pt-28 pb-20">
+        <section className="laptop:pt-48 pt-28">
             <ContainerGRID className="flex items-center flex-col laptop:flex-row laptop:justify-between gap-8 laptop:gap-0">
                  <div className="w-full max-w-hero-areaText text-center laptop:text-start">
                      <SubTitle text="Best Learning Platform"/>
