@@ -87,7 +87,10 @@
    --max-width-title-categories:40.4375rem;
    --max-width-title-personal:45.9375rem;
    --max-width-footer-form: 28.875rem;
-  --max-width-containerFooter: 83.75rem;
+    --max-width-containerFooter: 83.75rem;
+
+    --max-width-value-infos: 39rem;
+    
    --height-hero-areaImage:45rem;
    --height-card-category:21.875rem;
    
