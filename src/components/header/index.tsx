@@ -4,7 +4,7 @@ import { ContainerGRID } from "../containerGRID";
 import { NavListing } from "./navListing";
 import { Button } from "../button";
 
-import iconLibrary from "@/assets/icons/icon-library.png";
+import logo from "@/assets/icons/Logo.png";
 import iconHamburguer from "@/assets/icons/iconHamburguer.svg";
 
 export function Header(){
@@ -13,12 +13,11 @@ export function Header(){
              <ContainerGRID className="flex items-center justify-between">
                  <Link href="/" className="flex items-center gap-3">            
                    <Image
-                    src={iconLibrary}
+                    src={logo}
                     alt="Logo Eduvance"
                     loading="eager"
-                    className="max-w-8 desktop:max-w-full"
+                    className="max-w-40 laptop:max-w-full"
                    />
-                   <span className="font-bold text-2xl desktop:text-4xl text-primary-700">Eduvance</span>
                  
                  </Link>
                  <NavListing/>
