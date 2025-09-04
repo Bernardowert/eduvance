@@ -13,7 +13,7 @@ export function HeadingTitle({subtitle,className,children}:TitleProps){
     return(
         <div className={`${style.titleHeading} ${className ? className : ""}`}>
             <SubTitle text={subtitle}/>
-            <h2 className="text-6xl font-bold text-gray-900 mt-6">{children}</h2>
+            <h2 className="text-6xl font-bold text-gray-900 mt-6 capitalize">{children}</h2>
         </div>
     )
 }
