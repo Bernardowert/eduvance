@@ -5,6 +5,7 @@ import { SectionCourses } from "@/components/sections/home/courses";
 import { SectionHero } from "@/components/sections/home/hero";
 import { SectionJourney } from "@/components/sections/home/journey";
 import { SectionPricing } from "@/components/sections/home/pricing";
+import { SectionStory } from "@/components/sections/home/story";
 import { SectionValue } from "@/components/sections/home/value";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
            <SectionCourses/>
            <SectionPricing/>
            <SectionJourney/>
+           <SectionStory/>
         </>
   );
 }

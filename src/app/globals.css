@@ -9,6 +9,7 @@
 
 
 @theme static{
+   --color-primary-10:#E0DAFF;
   --color-primary-20:#F3EFFE;
   --color-primary-50:#F5F3FF;
   --color-primary-100:#ECE9FE;
@@ -97,6 +98,7 @@
    --height-hero-areaImage:45rem;
    --height-card-category:21.875rem;
    --height-card-course: 25.875rem;
+   --height-card-story:34.3125rem;
    
    --breakpoint-desktop:80rem;
    --breakpoint-laptop: 64rem;
@@ -106,6 +108,7 @@
    --background-image-elevate: url("../assets/bg-elevate.svg");
    --background-image-journey: url("../assets/detailbgJourney.svg");
    --background-image-detail01: url("../assets/icons/icon-detail-01.svg");
+   --background-image-detail02: url("../assets/icons/bgdetail02.png");
    --background-image-sectionPersonal: url("../assets/images/hero/img-personal-banner.png");
   
 }
