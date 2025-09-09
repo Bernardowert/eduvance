@@ -28,7 +28,7 @@ const allCards = [
         ]
     },
     {
-        btnText:"Starter Plan",
+        btnText:"Get Started Today",
         description:"Best for consistent learners and professionals seeking more value",
         title:"Starter Plan",
         bestPrice:true,
@@ -74,7 +74,7 @@ const allCards = [
                 descriptionIcon:"Offline Viewing",
             }
         ]
-    },
+    }
 ]
 
 export function Cards(){
