@@ -92,6 +92,7 @@
     --max-width-value-infos: 39rem;
 
     --max-width-card-course-home:26.125rem;
+    --max-width-card-journey: 19rem;
     
    --height-hero-areaImage:45rem;
    --height-card-category:21.875rem;
@@ -103,6 +104,7 @@
 
 
    --background-image-elevate: url("../assets/bg-elevate.svg");
+   --background-image-journey: url("../assets/detailbgJourney.svg");
    --background-image-detail01: url("../assets/icons/icon-detail-01.svg");
    --background-image-sectionPersonal: url("../assets/images/hero/img-personal-banner.png");
   
