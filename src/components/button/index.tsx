@@ -6,6 +6,7 @@ import { twMerge } from "tailwind-merge";
 const styles = {
     btnPrimary:"bg-secondary-300 text-gray-900 [&:hover,&:focus]:bg-secondary-400",
     btnSecondary:"bg-white [&:hover,&:focus]:bg-secondary-100",
+    btnThird:"bg-primary-700 text-white [&:hover,&:focus]:bg-primary-600"
 }
 
 type ButtonStyle = keyof typeof styles;
