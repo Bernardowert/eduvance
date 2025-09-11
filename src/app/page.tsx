@@ -1,4 +1,5 @@
 import { SectionAbout } from "@/components/sections/home/about";
+import { SectionBlog } from "@/components/sections/home/blog";
 import { SectionCategories } from "@/components/sections/home/categories";
 import { SectionCompany } from "@/components/sections/home/company";
 import { SectionCourses } from "@/components/sections/home/courses";
@@ -20,6 +21,7 @@ export default function Home() {
            <SectionPricing/>
            <SectionJourney/>
            <SectionStory/>
+           <SectionBlog/>
         </>
   );
 }
