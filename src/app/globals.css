@@ -120,6 +120,7 @@
     --max-width-containerFooter: 83.75rem;
    --max-width-cardSection:60.0625rem;
     --max-width-value-infos: 39rem;
+    --max-width-page-about:39rem;
 
     --max-width-card-course-home:26.125rem;
     --max-width-card-journey: 19rem;
@@ -129,6 +130,7 @@
    --height-card-category:21.875rem;
    --height-card-course: 25.875rem;
    --height-card-story:34.3125rem;
+   --height-image-about:32.25rem;
 
    --breakpoint-desktop:80rem;
    --breakpoint-laptop: 64rem;
