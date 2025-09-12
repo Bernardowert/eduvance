@@ -4,7 +4,7 @@ import { Cards } from "./cards";
 
 export function SectionPricing(){
     return(
-        <section className="py-28">
+        <section className="pt-28">
             <ContainerGRID>
                <div className="text-center">
                     <HeadingTitle subtitle="Pricing">
