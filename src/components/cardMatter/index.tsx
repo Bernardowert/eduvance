@@ -1,4 +1,3 @@
-import icon01 from "@/assets/icons/icon-matter-01.png";
 import Image, { StaticImageData } from "next/image";
 
 
@@ -11,7 +10,7 @@ interface CardMatterProps{
 
 export function CardMatter({iconSrc, iconAlt, title, description}:CardMatterProps){
     return(
-        <div className="flex items-start gap-8 rounded-2xl bg-white h-cardMatter w-full max-w-[400px] p-8">
+        <div className="flex items-start gap-8 rounded-2xl bg-white tablet:p-6 laptop:h-40 desktop:h-cardMatter laptop:p-8 px-4 py-5">
                <div className="w-full max-w-14 h-14 flex items-center justify-center rounded-full bg-primary-50">
                    <Image
                     src={iconSrc}
@@ -20,8 +19,8 @@ export function CardMatter({iconSrc, iconAlt, title, description}:CardMatterProp
                    />
                </div>
                <div>
-                    <h3 className="text-2xl font-semibold text-gray-900 mb-1.5">{title}</h3>
-                    <p className="text-gray-800 text-lg">{description}</p>
+                    <h3 className="text-lg laptop:text-2xl font-semibold text-gray-900 mb-1.5">{title}</h3>
+                    <p className="text-gray-800 laptop:text-lg">{description}</p>
                </div>
         </div>
     )

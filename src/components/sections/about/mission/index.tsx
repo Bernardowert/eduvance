@@ -11,7 +11,7 @@ export function SectionMission(){
         <section className="pb-28">
             <ContainerGRID className="flex items-start justify-between flex-col gap-8 laptop:flex-row laptop:gap-0">
                 <div className="w-full laptop:max-w-card-course-home">
-                    <HeadingTitle subtitle="Vision & Mission" className="text-center" classNameTitle="laptop:leading-16">
+                    <HeadingTitle subtitle="Vision & Mission" className="text-center laptop:text-start" classNameTitle="laptop:leading-16">
                         <span>Defining</span> Our Purpose <Image src={iconFlower} className="hidden laptop:inline-block align-middle ml-3" alt="Icone Flower" title="Flower" aria-hidden/> and <span>Direction</span>
                     </HeadingTitle>
                     <Image
