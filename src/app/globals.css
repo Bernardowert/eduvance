@@ -52,6 +52,7 @@
   --color-primary-400:#a28afb;
   --color-primary-500:#8a61f8;
   --color-primary-600:#7538ef;
+  --color-primary-650: #8153FD;
   --color-primary-700:#6726db;
   --color-primary-800:#561fb8;
   --color-primary-900:#481c96;
@@ -117,7 +118,7 @@
    --max-width-title-personal:45.9375rem;
    --max-width-footer-form: 28.875rem;
     --max-width-containerFooter: 83.75rem;
-
+   --max-width-cardSection:60.0625rem;
     --max-width-value-infos: 39rem;
 
     --max-width-card-course-home:26.125rem;
