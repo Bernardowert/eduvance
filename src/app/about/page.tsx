@@ -1,5 +1,6 @@
 import { CardSection } from "@/components/cardSection";
 import { SectionMission } from "@/components/sections/about/mission";
+import { SectionOurValue } from "@/components/sections/about/ourValue";
 import { SectionStoryAbout } from "@/components/sections/about/story";
 
 export default function About(){
@@ -10,6 +11,7 @@ export default function About(){
         </CardSection> 
          <SectionStoryAbout/> 
          <SectionMission/>
+         <SectionOurValue/>
         </>
     )
 }
