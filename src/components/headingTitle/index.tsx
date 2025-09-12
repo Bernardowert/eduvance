@@ -12,8 +12,8 @@ interface TitleProps{
 export function HeadingTitle({subtitle,className,children}:TitleProps){
     return(
         <div className={`${style.titleHeading} ${className ? className : ""}`}>
-            <SubTitle text={subtitle}/>
-            <h2 className="text-6xl font-bold text-gray-900 mt-6 capitalize">{children}</h2>
+            <SubTitle text={subtitle} className="text-sm laptop:text-lg"/>
+            <h2 className="laptop:text-6xl text-3xl font-bold text-gray-900 mt-6 capitalize">{children}</h2>
         </div>
     )
 }
