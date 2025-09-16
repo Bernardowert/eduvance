@@ -2,6 +2,7 @@ import { CardSection } from "@/components/cardSection";
 import { SectionMission } from "@/components/sections/about/mission";
 import { SectionOurValue } from "@/components/sections/about/ourValue";
 import { SectionStoryAbout } from "@/components/sections/about/story";
+import { SectionStoryVideo } from "@/components/sections/about/storyVideo";
 
 export default function About(){
     return(
@@ -12,6 +13,7 @@ export default function About(){
          <SectionStoryAbout/> 
          <SectionMission/>
          <SectionOurValue/>
+         <SectionStoryVideo/>
         </>
     )
 }
