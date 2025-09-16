@@ -125,6 +125,7 @@
     --max-width-card-course-home:26.125rem;
     --max-width-card-journey: 19rem;
     --max-width-card-p:34.375rem;
+    --max-width-p-instructor:55.1875rem;
 
    --height-hero-areaImage:45rem;
    --height-card-category:21.875rem;
@@ -133,6 +134,7 @@
    --height-image-about:32.25rem;
    --height-cardMatter: 11.4375rem;
    --height-card-video:37.5rem;
+   --height-card-instructor:18.75rem;
 
    --breakpoint-desktop:80rem;
    --breakpoint-laptop: 64rem;

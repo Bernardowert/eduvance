@@ -1,4 +1,5 @@
 import { CardSection } from "@/components/cardSection";
+import { SectionInstructors } from "@/components/sections/about/instructors";
 import { SectionMission } from "@/components/sections/about/mission";
 import { SectionOurValue } from "@/components/sections/about/ourValue";
 import { SectionStoryAbout } from "@/components/sections/about/story";
@@ -14,6 +15,7 @@ export default function About(){
          <SectionMission/>
          <SectionOurValue/>
          <SectionStoryVideo/>
+         <SectionInstructors/>
         </>
     )
 }
