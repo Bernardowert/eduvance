@@ -1,3 +1,7 @@
 .titleHeading h2 span{
     color: var(--color-primary-600);
 }
+
+.yellow h2 span{
+    color: var(--color-secondary-1000);
+}
