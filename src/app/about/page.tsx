@@ -1,6 +1,5 @@
 import { CardLearning } from "@/components/cardLearning";
 import { CardSection } from "@/components/cardSection";
-import { ContainerGRID } from "@/components/containerGRID";
 import { SectionInstructors } from "@/components/sections/about/instructors";
 import { SectionMission } from "@/components/sections/about/mission";
 import { SectionOurValue } from "@/components/sections/about/ourValue";
@@ -19,12 +18,9 @@ export default function About(){
          <SectionStoryVideo/>
          <SectionInstructors/>
 
-        <CardLearning
-         title="Join Thousands of Learners "
-         description="Start your journey toward a smarter future with expert-led courses, flexible learning, and powerful career support."
-         subtitle="Best Learning Platform"
-         btnText="Enroll Now"
-        />
+        <CardLearning subtitle="Best Learning Platform" description="Join thousands of learners and take the first step toward your future today." btnText="Explore Course Now">
+            <span>Join</span> Thousands of <span>Learners </span>
+        </CardLearning>
         </>
     )
 }
