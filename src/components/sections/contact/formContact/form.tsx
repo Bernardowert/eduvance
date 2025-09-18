@@ -40,7 +40,7 @@ export function Form(){
   }
     
     return(
-         <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-page-about p-8 bg-white rounded-2xl space-y-8">
+         <form onSubmit={handleSubmit(onSubmit)} className="w-full laptop:max-w-page-about p-8 bg-white rounded-2xl space-y-8">
             <Input
             type="text"
             labelName="Full Name"
