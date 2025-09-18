@@ -12,7 +12,7 @@ const styles = {
 type ButtonStyle = keyof typeof styles;
 
 
-interface ButtonProps {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>{
     children:ReactNode;
     className?:string;
     btnStyle?: ButtonStyle;
