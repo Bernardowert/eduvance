@@ -13,7 +13,7 @@ interface CardSectionProps{
 
 export function CardSection({description, children}:CardSectionProps){
     return(
-        <section className="pt-52 pb-28 bg-primary-650 relative z-20 overflow-hidden">
+        <section className="pt-52 pb-28 h-card-video bg-primary-650 relative z-20 overflow-hidden flex items-center">
             <Details/>
             <ContainerGRID className="text-center text-white">
                  <h1 className={`text-5xl  font-bold laptop:text-8xl max-w-cardSection mx-auto ${style.title}`}>{children}</h1>

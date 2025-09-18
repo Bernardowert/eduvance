@@ -12,13 +12,14 @@ export default function About(){
           <CardSection description="Discover who we are, what we stand for, and how we’re shaping the future of learning.">
           <span>Learn</span> with Purpose Grow with <span>Eduvance</span>
         </CardSection> 
+        
          <SectionStoryAbout/> 
          <SectionMission/>
          <SectionOurValue/>
          <SectionStoryVideo/>
          <SectionInstructors/>
 
-        <CardLearning subtitle="Best Learning Platform" description="Join thousands of learners and take the first step toward your future today." btnText="Explore Course Now">
+        <CardLearning subtitle="Best Learning Platform" description="Start your journey toward a smarter future with expert-led courses, flexible learning, and powerful career support." btnText="Enroll Now">
             <span>Join</span> Thousands of <span>Learners </span>
         </CardLearning>
         </>
