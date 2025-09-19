@@ -1,4 +1,5 @@
 import { CardSection } from "@/components/cardSection";
+import { SectionFaqContact } from "@/components/sections/contact/faqContact";
 import { FormContact } from "@/components/sections/contact/formContact";
 
 export default function Contact(){
@@ -8,6 +9,7 @@ export default function Contact(){
               <span>Get</span> in Touch with <span>Us</span>
           </CardSection>
           <FormContact/>
+          <SectionFaqContact/>
         </>
     )
 }
