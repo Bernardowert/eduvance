@@ -39,6 +39,7 @@ export function AreaImage(){
                      alt={alt}
                      title={title}
                      loading="eager"
+                     fetchPriority="high"
                      draggable={false}
                      quality={100}
                      className={`absolute ${className ? className : ""}`}
