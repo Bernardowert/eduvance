@@ -34,7 +34,7 @@ export function Form(){
     })
 
 
-  const onSubmit = async(data:FormData) => {
+  const onSubmit = async(data:FormSchema) => {
     console.log(data);
     reset()
   }
