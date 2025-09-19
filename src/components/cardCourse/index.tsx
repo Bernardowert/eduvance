@@ -1,7 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import { SubTitle } from "../subtitle";
 import { Button } from "../button";
-import { CourseListing } from "./listing";
 
 import iconBook from "@/assets/icons/menu_book.png";
 import iconClock from "@/assets/icons/clock-icon.png";
