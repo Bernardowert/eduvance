@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Plus_Jakarta_Sans as Jakarta } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${jakarta.variable} antialiased`}
       >
+        <SpeedInsights/>
         <Header/>
         {children}
         <Footer/>
