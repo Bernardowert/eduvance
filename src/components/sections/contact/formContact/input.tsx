@@ -1,10 +1,11 @@
 import { RegisterOptions, UseFormRegister } from "react-hook-form";
+import { FormSchema } from "./form";
 
 interface InputProps{
   type?:string;
   placeholder:string;
-  name:string;
-  register:UseFormRegister<any>;
+  name:keyof FormSchema;
+  register:UseFormRegister<FormSchema>;
   error?:string;
   rules?:RegisterOptions;
   labelName:string;

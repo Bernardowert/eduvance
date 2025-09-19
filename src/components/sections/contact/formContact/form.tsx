@@ -16,7 +16,7 @@ const schema = z.object({
 })
 
 
-type FormData = z.infer<typeof schema>
+export type FormSchema = z.infer<typeof schema>
 
 
 
@@ -28,7 +28,7 @@ type FormData = z.infer<typeof schema>
 
 
 export function Form(){
-    const {register, handleSubmit, formState: {errors, isSubmitSuccessful, isSubmitting}, reset} = useForm<FormData>({
+    const {register, handleSubmit, formState: {errors, isSubmitSuccessful, isSubmitting}, reset} = useForm<FormSchema>({
     resolver: zodResolver(schema),
     mode:"onChange"
     })

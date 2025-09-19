@@ -67,8 +67,8 @@ export function FormContact(){
              <ContainerGRID className="flex justify-between flex-col laptop:flex-row">
                  <div className="w-full laptop:max-w-page-about">
                     <div className="text-center laptop:text-start mb-8 laptop:mb-24">
-                        <h2 className="font-bold text-gray-900 text-3xl mb-4 laptop:text-6xl/tight laptop:mb-6 text-center laptop:text-start">Have Questions? We're Here to Help!</h2>
-                        <p className="laptop:text-2xl text-gray-800">We’re here to help. Submit your inquiry through the form, and our team will respond within 24–48 hours.</p>
+                        <h2 className="font-bold text-gray-900 text-3xl mb-4 laptop:text-6xl/tight laptop:mb-6 text-center laptop:text-start">Have Questions? We re Here to Help!</h2>
+                        <p className="laptop:text-2xl text-gray-800">We re here to help. Submit your inquiry through the form, and our team will respond within 24 48 hours.</p>
                     </div>
                     <div className="absolute laptop:static bottom-8 left-4 right-4">
                         <ul className="grid mb-10 laptop:grid-cols-2 gap-6 laptop:gap-x-8 laptop:gap-y-10">
