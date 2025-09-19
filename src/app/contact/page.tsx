@@ -1,6 +1,7 @@
 import { CardSection } from "@/components/cardSection";
 import { SectionFaqContact } from "@/components/sections/contact/faqContact";
 import { FormContact } from "@/components/sections/contact/formContact";
+import { SectionLearning } from "@/components/sections/home/learning";
 
 export default function Contact(){
     return(
@@ -10,6 +11,10 @@ export default function Contact(){
           </CardSection>
           <FormContact/>
           <SectionFaqContact/>
+
+          <SectionLearning subtitle="Best Learning Platform" description="We’re here to support your learning journey—feel free to reach out anytime." btnText="Contact Us Now">
+             Still have <span>questions?</span>
+          </SectionLearning>
         </>
     )
 }

@@ -25,7 +25,14 @@ export default function Home() {
            <SectionStory/>
            <SectionBlog/>
            <SectionFaqs/>
-           <SectionLearning/>
+
+           <SectionLearning 
+           subtitle="Best Learning Platform"
+           description="Pick the course that suits your goals and join thousands of learners leveling up with Eduvance." 
+           btnText="Browse All Courses">
+           
+            Ready to start <span>learning?</span>
+           </SectionLearning>
         </>
   );
 }
